@@ -39,6 +39,8 @@ Detailed information about these features can be found under the [Modes](UserGui
 This developer guide is meant for budding software developers who want to learn more about LingoGO!'s architecture,
 contribute to LingoGO!, or adapt LingoGO!'s code into a project of their own.
 
+--------------------------------------------------------------------------------------------------------------------
+
 ## How to use the developer guide
 <!-- CHANGE LINKS -->
 * A [*Table of Contents*](#) with clickable links can be found above to help with navigating across the user guide quickly.
@@ -53,6 +55,8 @@ contribute to LingoGO!, or adapt LingoGO!'s code into a project of their own.
   [*Appendix C: Use Cases*](#appendix-c-use-cases), and [*Appendix D: Non-Functional Requirements*](#appendix-d-non-functional-requirements).
 * A [Glossary](#appendix-e-glossary) is provided to help explain certain important terms used in this guide.
 * For instructions on manual testing, refer to the [*Manual testing*](#appendix-f-instructions-for-manual-testing) section.
+
+--------------------------------------------------------------------------------------------------------------------
 
 ## Acknowledgements
 
@@ -481,7 +485,7 @@ University students
 
 (For all use cases below, the **System** is `LingoGO!` and the **Actor** is the `user`, unless specified otherwise)
 
-### Use case: List all flashcards
+### List all flashcards
 
 **MSS**
 1. User requests to list out all flashcards.
@@ -489,7 +493,7 @@ University students
 
    Use case ends.
 
-### Use case: List n flashcards
+### List n flashcards
 
 **MSS**
 1. User requests to list out n number of flashcards.
@@ -508,7 +512,7 @@ University students
 
       Use case resumes at step 1.
 
-### Use case: Add a flashcard
+### Add a flashcard
 
 **Guarantees**
 * A flashcard is added only if all of its information is provided.

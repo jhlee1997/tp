@@ -171,6 +171,8 @@ Format: `add l/LANGUAGE e/ENGLISH_PHRASE f/FOREIGN_PHRASE`
 * `ENGLISH_PHRASE` and `FOREIGN_PHRASE` should not be longer than **100 characters**.
   For optimal viewing experience, flashcard phrases should be kept as short as possible.
   If your phrases are too long to be displayed, you can **increase the app's window size**.
+* `LANGUAGE` should not be longer than **50 characters**.
+* Make sure that you are able to distinguish between the different foreign phrases, otherwise the [`answer`](#answering-a-flashcard--answer) command in [Slideshow mode](#slideshow-mode) would not be beneficial for your testing of knowledge.
 
 </div>
 * `LANGUAGE` only allows alphabetic characters which will be **capitalized** when the flashcard is added (e.g. "CHINESE" will be saved as "Chinese").
@@ -327,7 +329,7 @@ Format: `find [e/ENGLISH_KEYWORDS] [f/FOREIGN_KEYWORDS]`
 * The search for english keywords is **not case-sensitive**, e.g "HELLO" will match "Hello".
 * The search for foreign keywords is **case-sensitive** because some language depends on capitalization rules, e.g. in German, "Morgen" translates to "morning" but "morgen" translates to "tomorrow".
 * The **order** of the keywords **does not matter**, e.g. "Good morning" will match "Morning good".
-* Only **full words** will be matched for **English keywords**, e.g. "Fire" will **not** match "Firetruck".
+* Only **full words** will be matched for **English keywords**, e.g. "Fire" will **not** match "Fireworks".
 * **Non-full words** match will be accepted for **foreign keywords**, e.g. "早" with match "早安".
 * Flashcard(s) **matching at least one keyword** will be displayed.
 * **At least one** of the optional fields must be provided.
