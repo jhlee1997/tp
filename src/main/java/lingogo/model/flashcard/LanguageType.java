@@ -9,7 +9,7 @@ import static lingogo.commons.util.AppUtil.checkArgument;
  */
 public class LanguageType {
     public static final String MESSAGE_CONSTRAINTS = "Language type can take only alphabet characters,"
-            + " and should not be blank";
+            + " and should not be blank.";
 
     /**
      * {@code \\[a-zA-Z ]*} Allows us to match any alphabet characters or space 0 or more times.

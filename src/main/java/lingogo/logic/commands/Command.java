@@ -55,9 +55,10 @@ public abstract class Command {
             }
         }
         sb.append("\n");
-        sb.append("Examples:");
-        for (String example : commandExamples) {
-            sb.append(" ").append(example);
+        sb.append("Examples: ");
+        sb.append(commandExamples[0]);
+        for (int i = 1; i < commandExamples.length; i++) {
+            sb.append(" | ").append(commandExamples[i]);
         }
         return sb.toString();
     }

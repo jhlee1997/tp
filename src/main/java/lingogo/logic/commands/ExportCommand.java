@@ -22,7 +22,7 @@ public class ExportCommand extends Command {
     public static final String COMMAND_DESCRIPTION =
             "Exports flashcards to a CSV file where your data folder is located.";
     public static final String[] COMMAND_PARAMETERS = new String[] {
-        Parameter.CSV_FILE_NAME.withCondition("must have a valid file name with .csv extension")
+        Parameter.CSV_FILE_NAME.withCondition("must have a valid file name with .csv extension.")
     };
     public static final String[] COMMAND_EXAMPLES = new String[] {
         COMMAND_WORD + " myCards.csv"
@@ -32,7 +32,7 @@ public class ExportCommand extends Command {
             getMessageUsage(COMMAND_WORD, COMMAND_DESCRIPTION, COMMAND_PARAMETERS, COMMAND_EXAMPLES);
 
     public static final String MESSAGE_SUCCESS =
-            "All existing flashcards have been saved in %1$s (located in the data folder)";
+            "The current displayed list of flashcards have been saved in %1$s (located in the data folder).";
 
     public static final String EXPORT_IOEXCEPTION = "Could not save flashcards from LingoGO! into %1$s";
 

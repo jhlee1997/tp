@@ -31,7 +31,7 @@ public class ImportCommand extends Command {
     public static final String COMMAND_DESCRIPTION = "Imports flashcards from a CSV file into LingoGO!";
 
     public static final String[] COMMAND_PARAMETERS = new String[] {
-        Parameter.CSV_FILE_NAME.withCondition("must exist in the data folder and have .csv extension")
+        Parameter.CSV_FILE_NAME.withCondition("must exist in the data folder and have .csv extension.")
     };
     public static final String[] COMMAND_EXAMPLES = new String[] {
         COMMAND_WORD + " dictionary.csv"
@@ -40,13 +40,13 @@ public class ImportCommand extends Command {
     public static final String MESSAGE_USAGE =
             getMessageUsage(COMMAND_WORD, COMMAND_DESCRIPTION, COMMAND_PARAMETERS, COMMAND_EXAMPLES);
 
-    public static final String MESSAGE_SUCCESS = "LingoGO! has been updated with all the flashcards from %1$s";
+    public static final String MESSAGE_SUCCESS = "LingoGO! has been updated with all the flashcards from %1$s.";
 
     public static final String MESSAGE_NO_CSV_ROW_ENTRIES_DETECTED = "There are no CSV row entries detected in %1$s!"
             + " Please recheck your CSV file!";
 
     public static final String MESSAGE_NOT_UPDATED =
-            "LingoGO! already contains all the flashcards you are importing from %1$s";
+            "LingoGO! already contains all the flashcards you are importing from %1$s.";
 
     public static final String IMPORT_IOEXCEPTION = "Could not load flashcards from %1$s into LingoGO!";
 

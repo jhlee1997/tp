@@ -121,7 +121,8 @@ public class Flashcard {
     @Override
     public String toString() {
         final StringBuilder builder = new StringBuilder();
-        builder.append("Language type: ")
+        builder.append("\n")
+                .append("Language: ")
                 .append(getLanguageType())
                 .append("\n")
                 .append("Foreign phrase: ")

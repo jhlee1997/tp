@@ -33,7 +33,7 @@ public class AddCommand extends Command {
             getMessageUsage(COMMAND_WORD, COMMAND_DESCRIPTION, COMMAND_PARAMETERS, COMMAND_EXAMPLES);
 
     public static final String MESSAGE_SUCCESS = "New flashcard added: %1$s";
-    public static final String MESSAGE_DUPLICATE_FLASHCARD = "This flashcard already exists in the flashcard app";
+    public static final String MESSAGE_DUPLICATE_FLASHCARD = "This flashcard already exists in the flashcard app.";
 
     private final Flashcard toAdd;
 
