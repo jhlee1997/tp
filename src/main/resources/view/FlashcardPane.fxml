@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Text?>
 
-<HBox id="cardPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<HBox id="cardPane" xmlns="http://javafx.com/javafx/14" xmlns:fx="http://javafx.com/fxml/1">
   <GridPane fx:id="cardPane" id="cardGridPane" HBox.hgrow="ALWAYS" prefHeight="60" maxHeight="Infinity" minHeight="60" alignment="CENTER">
     <columnConstraints>
       <ColumnConstraints hgrow="SOMETIMES" prefWidth="50" percentWidth="10" halignment="CENTER" />
